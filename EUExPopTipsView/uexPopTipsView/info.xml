@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+    <plugin
+        uexName="uexPopTipsView" version="3.0.2" build="2">
+        <info>2:按要求，修改UI，改进功能</info>
+        <build>1:适配iOS5的版本</build>
+        <build>0:uexPopTipsView插件实现气泡菜单功能</build>
+    </plugin>
+</uexplugins>

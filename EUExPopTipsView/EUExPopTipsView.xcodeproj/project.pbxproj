@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C91916B1A760BC400B76DCD /* EUExPopTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C91916A1A760BC400B76DCD /* EUExPopTipsView.m */; };
+		3CD8BF8B1AB18F780069CFAB /* MenuPopOverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD8BF8A1AB18F780069CFAB /* MenuPopOverView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C9191631A760BC400B76DCD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C9191651A760BC400B76DCD /* libuexPopTipsView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexPopTipsView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C91916A1A760BC400B76DCD /* EUExPopTipsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUExPopTipsView.m; sourceTree = "<group>"; };
+		3C9191761A760BC500B76DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9191801A760CBC00B76DCD /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
+		3C9191811A760CBC00B76DCD /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
+		3C9191821A760CBC00B76DCD /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
+		3C9191831A760CBC00B76DCD /* EUExPopTipsView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EUExPopTipsView-Prefix.pch"; sourceTree = "<group>"; };
+		3CD8BF891AB18F780069CFAB /* MenuPopOverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuPopOverView.h; sourceTree = "<group>"; };
+		3CD8BF8A1AB18F780069CFAB /* MenuPopOverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuPopOverView.m; sourceTree = "<group>"; };
+		3CE585971A79D03F00457AE5 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		3CE585981A79D03F00457AE5 /* JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
+		3CE585991A79D03F00457AE5 /* MD5Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Digest.h; sourceTree = "<group>"; };
+		3CE5859A1A79D03F00457AE5 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		3CE5859B1A79D03F00457AE5 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		3CE5859C1A79D03F00457AE5 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		3CE5859D1A79D03F00457AE5 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		3CE5859E1A79D03F00457AE5 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		3CE5859F1A79D03F00457AE5 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		3CE585BB1A79DD9A00457AE5 /* EUExPopTipsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExPopTipsView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C9191621A760BC400B76DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C91915C1A760BC400B76DCD = {
+			isa = PBXGroup;
+			children = (
+				3C9191671A760BC400B76DCD /* EUExPopTipsView */,
+				3C9191741A760BC500B76DCD /* EUExPopTipsViewTests */,
+				3C9191661A760BC400B76DCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C9191661A760BC400B76DCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C9191651A760BC400B76DCD /* libuexPopTipsView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C9191671A760BC400B76DCD /* EUExPopTipsView */ = {
+			isa = PBXGroup;
+			children = (
+				3CE585BB1A79DD9A00457AE5 /* EUExPopTipsView.h */,
+				3C91916A1A760BC400B76DCD /* EUExPopTipsView.m */,
+				3CE585951A79D03F00457AE5 /* sourceCode */,
+				3C91917F1A760CBC00B76DCD /* engineHeader */,
+				3C9191831A760CBC00B76DCD /* EUExPopTipsView-Prefix.pch */,
+			);
+			path = EUExPopTipsView;
+			sourceTree = "<group>";
+		};
+		3C9191741A760BC500B76DCD /* EUExPopTipsViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C9191751A760BC500B76DCD /* Supporting Files */,
+			);
+			path = EUExPopTipsViewTests;
+			sourceTree = "<group>";
+		};
+		3C9191751A760BC500B76DCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C9191761A760BC500B76DCD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C91917F1A760CBC00B76DCD /* engineHeader */ = {
+			isa = PBXGroup;
+			children = (
+				3C9191801A760CBC00B76DCD /* EUExBase.h */,
+				3C9191811A760CBC00B76DCD /* EUExBaseDefine.h */,
+				3C9191821A760CBC00B76DCD /* EUtility.h */,
+			);
+			path = engineHeader;
+			sourceTree = "<group>";
+		};
+		3CD8BF881AB18F780069CFAB /* MenuPopOverView */ = {
+			isa = PBXGroup;
+			children = (
+				3CD8BF891AB18F780069CFAB /* MenuPopOverView.h */,
+				3CD8BF8A1AB18F780069CFAB /* MenuPopOverView.m */,
+			);
+			path = MenuPopOverView;
+			sourceTree = "<group>";
+		};
+		3CE585951A79D03F00457AE5 /* sourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				3CE585961A79D03F00457AE5 /* JSON */,
+				3CD8BF881AB18F780069CFAB /* MenuPopOverView */,
+			);
+			path = sourceCode;
+			sourceTree = "<group>";
+		};
+		3CE585961A79D03F00457AE5 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				3CE585971A79D03F00457AE5 /* JSON.h */,
+				3CE585981A79D03F00457AE5 /* JSONParser.h */,
+				3CE585991A79D03F00457AE5 /* MD5Digest.h */,
+				3CE5859A1A79D03F00457AE5 /* NSObject+SBJSON.h */,
+				3CE5859B1A79D03F00457AE5 /* NSString+SBJSON.h */,
+				3CE5859C1A79D03F00457AE5 /* SBJSON.h */,
+				3CE5859D1A79D03F00457AE5 /* SBJsonBase.h */,
+				3CE5859E1A79D03F00457AE5 /* SBJsonParser.h */,
+				3CE5859F1A79D03F00457AE5 /* SBJsonWriter.h */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C9191641A760BC400B76DCD /* EUExPopTipsView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9191791A760BC500B76DCD /* Build configuration list for PBXNativeTarget "EUExPopTipsView" */;
+			buildPhases = (
+				3C9191611A760BC400B76DCD /* Sources */,
+				3C9191621A760BC400B76DCD /* Frameworks */,
+				3C9191631A760BC400B76DCD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EUExPopTipsView;
+			productName = EUExPopTipsView;
+			productReference = 3C9191651A760BC400B76DCD /* libuexPopTipsView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C91915D1A760BC400B76DCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "zhijian du";
+				TargetAttributes = {
+					3C9191641A760BC400B76DCD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 3C9191601A760BC400B76DCD /* Build configuration list for PBXProject "EUExPopTipsView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C91915C1A760BC400B76DCD;
+			productRefGroup = 3C9191661A760BC400B76DCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C9191641A760BC400B76DCD /* EUExPopTipsView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C9191611A760BC400B76DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD8BF8B1AB18F780069CFAB /* MenuPopOverView.m in Sources */,
+				3C91916B1A760BC400B76DCD /* EUExPopTipsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3C9191771A760BC500B76DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C9191781A760BC500B76DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C91917A1A760BC500B76DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexPopTipsView";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EUExPopTipsView/EUExPopTipsView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = uexPopTipsView;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3C91917B1A760BC500B76DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexPopTipsView";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EUExPopTipsView/EUExPopTipsView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = uexPopTipsView;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C9191601A760BC400B76DCD /* Build configuration list for PBXProject "EUExPopTipsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9191771A760BC500B76DCD /* Debug */,
+				3C9191781A760BC500B76DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9191791A760BC500B76DCD /* Build configuration list for PBXNativeTarget "EUExPopTipsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C91917A1A760BC500B76DCD /* Debug */,
+				3C91917B1A760BC500B76DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C91915D1A760BC400B76DCD /* Project object */;
+}
